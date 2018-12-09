@@ -1,0 +1,70 @@
+.lead_title {
+  display: table;
+  margin: 0 auto;
+  font-size: 55;
+}
+
+.outer-wrapper {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.inner-wrapper {
+  display: inline-block;
+  position: relative;
+}
+
+#display-overlay {
+  position: absolute;
+  left: 100px;
+  top: 0px;
+  margin: 10px;
+  padding: 5px 5px;
+  font-size: 20px;
+  display: none;
+  background-color: white;
+  border-radius: 5px;
+  opacity: 5%;
+}
+
+.container {
+  padding: 15px;
+  align-content: center;
+  border: 5px solid #343a40;
+  background: powderblue;
+  border-radius: 10px;
+}
+.container,
+form,
+legend {
+  text-align: center;
+}
+
+#cueTable {
+  display: table;
+  margin: 0 auto;
+  border: solid 2px #343a40;
+  padding: 5px;
+  border-collapse: collapse;
+  background: powderblue;
+}
+
+#cueTable th {
+  border: solid 2px black;
+  padding: 5px;
+  text-align: center;
+}
+
+#cueTable tr {
+}
+
+#cueTable td {
+  border: solid 1px black;
+  padding: 5px;
+  text-align: center;
+}
+
+#cueListTitle {
+  text-align: center;
+}

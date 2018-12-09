@@ -1,0 +1,41 @@
+<!--Title-->
+<h1 class="lead_title">Vimeo Cue</h1>
+
+<!--Embed Video-->
+<div class="outer-wrapper">
+    <div class="inner-wrapper">
+        <div id="display-overlay">
+            <p id="cue_text"> </p>
+            <p id="cue_time"> </p>
+        </div>
+        <!--Decided to use my favorite video on vimeo for the challenge-->
+        <iframe src="https://player.vimeo.com/video/19043172" width="640" height="360" frameborder="0"
+            webkitallowfullscreen mozallowfullscreen allowfullscreen allow="autoplay; encrypted-media" class="videoframe"></iframe>
+    </div>
+</div>
+
+<!--Form To Enter Cue-->
+<div class="container">
+    <form>
+        <legend>Enter Your Cue Here!</legend>
+        <textarea id="cue" rows="5" cols="82"></textarea>
+        <br>
+        <label for="time">Cue Time: </label>
+        <input type="number" step="0.01" id="time" name="time">
+        <input type="button" value="submit" id="submit" onclick="addCue()">
+    </form>
+</div>
+
+<!--Table of Cues-->
+<h3 id="cueListTitle">Cue List</h3>
+<table id="cueTable">
+    <tr>
+        <th>Cue Text</th>
+        <th>Time of Cue</th>
+        <th>Delete</th>
+    </tr>
+</table>
+
+<!--Javascript/DOM within script-->
+<script src="https://player.vimeo.com/api/player.js"></script>
+<script src="client.js"></script>
