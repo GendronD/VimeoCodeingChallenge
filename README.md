@@ -1,4 +1,4 @@
-# VimeoCodeingChallenge
+# VimeoCodingChallenge
 Coding Challenge from Vimeo
 
 Video Playback Engineering Internship - Summer 2019
